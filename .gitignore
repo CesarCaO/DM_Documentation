@@ -1,0 +1,58 @@
+.qodo
+# ──────────────────────────────────────────────────────────────────────────────
+# Archivos auxiliares de LaTeX / pdfLaTeX
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.fls
+*.fdb_latexmk
+
+# Sincronización SyncTeX
+*.synctex.gz
+*.synctex.* 
+
+# Salidas intermedias y finales
+*.dvi
+*.xdv
+*.ps
+
+
+# Bibliografía (BibTeX, Biber, BibLaTeX)
+*.bbl
+*.blg
+*.bcf
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Beamer y otros paquetes
+*.nav
+*.snm
+*.vrb
+*.thm
+*.alg
+*.idx
+*.ilg
+*.ind
+
+# Imágenes o conversiones automáticas
+*-converted-to.*
+*.pdfsync
+
+# Editor / Sistema Operativo
+.DS_Store      # macOS :contentReference[oaicite:5]{index=5}
+*~             # backups de editores :contentReference[oaicite:6]{index=6}
+.vscode/       # VSCode settings, si lo usas
+.idea/         # IntelliJ/TeXiFy-IDEA :contentReference[oaicite:7]{index=7}
+
+# Carpeta de auxiliares externos (ej. latexrun)
+latex.out/
+
+# Otros logs o bases de datos de formatos
+*.fmt
+*.fot
+*.cb
+*.cb2
