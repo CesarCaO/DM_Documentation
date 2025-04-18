@@ -18,7 +18,7 @@
 *.dvi
 *.xdv
 *.ps
-
+*.pdf       # elimina si quieres versionar solo los PDFs “finales”
 
 # Bibliografía (BibTeX, Biber, BibLaTeX)
 *.bbl
